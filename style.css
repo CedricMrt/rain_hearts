@@ -42,11 +42,13 @@ strong {
 
 /*============love.html============*/
 
-.love {
+.love h1 {
+    opacity: 0;
+    animation: animTitle 3000ms ease-in-out 500ms 1 forwards;
     margin-top: 8rem;
-    letter-spacing: .8rem;
+    letter-spacing: .5rem;
     color: gold;
-    font-size: 5rem;
+    font-size: 8rem;
     text-shadow: 0 2px 1px #747474,
         -1px 3px 1px #767676,
         -2px 5px 1px #787878,
@@ -88,6 +90,23 @@ h1 {
     height: 100%;
 }
 
+/*======== animation titre ======*/
+
+@keyframes animTitle {
+    0% {
+        opacity: 0;
+        transform: translateY(35vh)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+/* ======= animation coeurs ======*/
 .set {
     position: absolute;
     width: 100%;
