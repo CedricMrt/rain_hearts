@@ -6,13 +6,24 @@ body {
 }
 
 /*===========index.html===========*/
+
+.box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
 button {
+    max-width: 80%;
     background-color: rgb(1, 17, 58);
     cursor: pointer;
     border: none;
-    position: absolute;
-    top: 40%;
-    left: 35%;
     font-family: 'Lovers Quarrel', cursive;
     font-size: 5rem;
     color: gold;
@@ -32,9 +43,6 @@ strong {
 /*============love.html============*/
 
 .love {
-    /*position: absolute;
-    top: 50%;
-    left: 45%;*/
     margin-top: 8rem;
     letter-spacing: .8rem;
     color: gold;
